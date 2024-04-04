@@ -1,7 +1,7 @@
 <?php
 
         $ord = 0;
-        $files = glob('assets/music/Disc 1 - Extradiegetic Music/*');
+        $files = glob('assets/music/album/*');
 
         foreach($files as $file) {
         // echo $file . "\n";
