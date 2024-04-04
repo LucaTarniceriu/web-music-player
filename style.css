@@ -1,0 +1,35 @@
+html {
+    min-height: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(140deg, rgba(0,0,0,1) 28%, rgba(40,25,61,1) 100%, rgba(0,47,56,1) 100%);
+    /* zoom: 200% */
+}
+
+#b1, #b2, #b3{
+    width: 10%
+} 
+
+#cover{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    margin-left: -300px;
+}
+
+.titleClass{
+    position:absolute;
+    left: 50%;
+    bottom: 36%;
+    margin-left: -300px;
+
+}
+
+.controls{
+    position:absolute;
+    bottom: 15%; 
+    left: 50%;
+    margin-left: -379px;
+    height: fit-content;
+    width: fit-content;
+}
+
