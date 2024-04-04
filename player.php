@@ -2,19 +2,16 @@
 <html> 
     <head>
         <link rel="stylesheet" href="style.css">
-        <title id="titleText">01 - Inside the Wall</title>
+        <title id="titleText">title</title>
         <meta name="viewport" content="user-scalable=no">
-        <audio id="audiotag1" src = "assets/music/Stray1/01 - Inside the Wall.wav" onended= "nextTrack()"> </audio>
+        <audio id="audiotag1" src = "assets/music/" onended= "nextTrack()"> </audio>
     </head>
 
 
     <body>
-        
-        <!-- <div class="album" > Album Name</div> -->
-
         <img id="cover" src="assets/music/Stray1/cover.png" alt="cover" width="600" onclick="location.href='index.php'"> </img>
 
-        <div id="trackText" class="titleClass" style="color:white; font-family:Monaco ;font-weight:bold; font-style: normal; font-size: 350%;" >01 - Inside the Wall</div>
+        <div id="trackText" class="titleClass" style="color:white; font-family:Monaco ;font-weight:bold; font-style: normal; font-size: 350%;" >track</div>
 
         <controls class="controls">
             <img onclick = "prevTrack()" href="#" id = "b1" src="assets/images/prev.png" alt="prev" style="width: 250px;"></img>
