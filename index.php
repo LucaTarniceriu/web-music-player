@@ -17,8 +17,8 @@
     if($handle){
         while(($entry = readdir($handle)) !== false){
             if($entry != '.' && $entry != '..' && $entry != '.htaccess'){
-            echo "<img src='assets/music/$entry/cover.png' onclick=\"setAlbum('$entry');\"  style='width:400px'></img> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";    //im sorry
-            $cont += 1;     //i am not doing another style atribute to change it as albums are added now. This is fine...                   ^
+            echo "<img src='assets/music/$entry/cover.png' onclick=\"setAlbum('$entry');\"  style='width:400px'></img> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"; // not optimal. 
+            $cont += 1;
             if($cont == 2)
             {
                 echo "<br><br>";
